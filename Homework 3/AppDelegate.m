@@ -16,10 +16,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
 
+-(IBAction)prePop1Selected:(id)sender {
+    NSLog(@"prepopping1 from appdelegate");
+}
+
+-(IBAction)prePop2Selected:(id)sender {
+    NSLog(@"prepopping2 from appdelegate");
+}
 @end

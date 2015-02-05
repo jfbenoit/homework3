@@ -13,6 +13,8 @@
 		16242ECE1A7D701B00485726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16242ECD1A7D701B00485726 /* Images.xcassets */; };
 		16242ED11A7D701B00485726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16242ECF1A7D701B00485726 /* Main.storyboard */; };
 		16242EDD1A7D701B00485726 /* Homework_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16242EDC1A7D701B00485726 /* Homework_3Tests.m */; };
+		16242EE71A7D782800485726 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16242EE61A7D782800485726 /* TodoItem.m */; };
+		16242EE91A7D790500485726 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 16242EE81A7D790500485726 /* TodoList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		16242ED61A7D701B00485726 /* Homework 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16242EDB1A7D701B00485726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16242EDC1A7D701B00485726 /* Homework_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_3Tests.m; sourceTree = "<group>"; };
+		16242EE61A7D782800485726 /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
+		16242EE81A7D790500485726 /* TodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
+		16242EEA1A7D7BC200485726 /* TodoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		16242EEB1A7D7EB900485726 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				16242ECB1A7D701B00485726 /* ViewController.m */,
 				16242ECD1A7D701B00485726 /* Images.xcassets */,
 				16242ECF1A7D701B00485726 /* Main.storyboard */,
+				16242EE61A7D782800485726 /* TodoItem.m */,
+				16242EEA1A7D7BC200485726 /* TodoItem.h */,
+				16242EE81A7D790500485726 /* TodoList.m */,
+				16242EEB1A7D7EB900485726 /* TodoList.h */,
 				16242EC31A7D701B00485726 /* Supporting Files */,
 			);
 			path = "Homework 3";
@@ -217,7 +227,9 @@
 			files = (
 				16242ECC1A7D701B00485726 /* ViewController.m in Sources */,
 				16242EC91A7D701B00485726 /* main.m in Sources */,
+				16242EE71A7D782800485726 /* TodoItem.m in Sources */,
 				16242EC71A7D701B00485726 /* AppDelegate.m in Sources */,
+				16242EE91A7D790500485726 /* TodoList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
