@@ -15,6 +15,7 @@
 		16242EDD1A7D701B00485726 /* Homework_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16242EDC1A7D701B00485726 /* Homework_3Tests.m */; };
 		16242EE71A7D782800485726 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16242EE61A7D782800485726 /* TodoItem.m */; };
 		16242EE91A7D790500485726 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 16242EE81A7D790500485726 /* TodoList.m */; };
+		16242EED1A8342E800485726 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 16242EEC1A8342E800485726 /* notes.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		16242EE81A7D790500485726 /* TodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
 		16242EEA1A7D7BC200485726 /* TodoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
 		16242EEB1A7D7EB900485726 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		16242EEC1A8342E800485726 /* notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = notes.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				16242EC61A7D701B00485726 /* AppDelegate.m */,
 				16242ECA1A7D701B00485726 /* ViewController.h */,
 				16242ECB1A7D701B00485726 /* ViewController.m */,
+				16242EEC1A8342E800485726 /* notes.rtf */,
 				16242ECD1A7D701B00485726 /* Images.xcassets */,
 				16242ECF1A7D701B00485726 /* Main.storyboard */,
 				16242EE61A7D782800485726 /* TodoItem.m */,
@@ -206,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16242EED1A8342E800485726 /* notes.rtf in Resources */,
 				16242ECE1A7D701B00485726 /* Images.xcassets in Resources */,
 				16242ED11A7D701B00485726 /* Main.storyboard in Resources */,
 			);
@@ -416,6 +420,7 @@
 				16242EE21A7D701B00485726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16242EE31A7D701B00485726 /* Build configuration list for PBXNativeTarget "Homework 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				16242EE51A7D701B00485726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

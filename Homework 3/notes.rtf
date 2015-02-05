@@ -1,0 +1,23 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 \
+Issues I struggled with:\
+- putting the #import TodoItem line in the right file of TodoList (put it in the h file, not the m file, if referenced in h)\
+- having an #end directive instead of @end at the end of h file creates errors in the m file - arg\
+- (generally trying to figure out what the errors mean)\
+- forgot to actually populate the todolist property on my controller with a todolist instance. didn't get any errors, but wondered why none of my list methods were being called.\
+- in general, having a hard time understanding when to use int and when to use NSInteger\
+\
+Questions:\
+- What is @(row) doing when row is already a NSInteger?\
+- why is textfield controlTextDidChange a delegate method vs a message? (in general, why one over the other?)\
+- BOOL vs bool vs Boolean ...?\
+- I can log from menu item selection in app delegate, but I can't figure out how to reference the viewcontroller from the app delegate so that I can call the prepop methods on the list.\
+\
+- memory inspection of running app?\
+- handling exceptions?\
+}
